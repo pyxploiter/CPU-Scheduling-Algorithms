@@ -55,13 +55,11 @@ void get_process_info(int selected_algo){
 
 //get maximum of three numbers
 int max(int a,int b, int c){
-        long max,lcom, count, flag=0;
+        long max=c,lcom, count, flag=0;
         if( a>=b && a>=c)
                 return max=a;
-        else if(b >=a && b>=c)
+        else if(b>c)
                 return max=b;
-        else if(c>=a && c>=b)
-                return max=c;
 }
 
 //calculating the observation time for scheduling timeline
